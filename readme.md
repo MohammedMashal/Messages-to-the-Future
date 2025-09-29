@@ -92,19 +92,19 @@ Server will run on http://localhost:5000
 
 **Note** : All message routes require authentication (JWT token in Authorization header).
 
-**Scheduled Message Sending**
+## Scheduled Message Sending
 
 - A cron job runs every minute to check for pending messages (status = pending) and sends them automatically via email.
 
 - Messages are sent according to the UTC timestamp stored in the database.
 
-**Future Improvements**
+## Future Improvements
 
 - Add message attachments
 - Allow recurring messages
 - User timezone support for scheduling
 - Frontend interface for easier message management
 
-**License**
+## License
 
 MIT License
